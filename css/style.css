@@ -1,0 +1,374 @@
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif; */
+
+/* Обнулення  */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+ul,
+li,
+button,
+pre {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #333D4B;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    background: #FEFCF7;
+    padding-bottom: 88px;
+}
+
+.container {
+    max-width: 1280px;
+    /* max-width: 1300px; */
+    margin: 0 auto;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+
+/*header*/
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 48px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+li a {
+    color: #83888F;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+}
+
+li a:active {
+    color: #333D4B;
+}
+
+li a:hover {
+    color: #333D4B;
+}
+
+/*first section*/
+
+.main-section {
+    background: url(../images/background.jpg);
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.main-section div {
+    max-width: 493px;
+    max-height: 397px;
+    margin-left: 85px;
+}
+
+h1 {
+    color: #FEFCF7;
+    font-family: 'Fraunces', serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    margin-bottom: 32px;
+}
+
+.main-section p {
+    color: #FEFCF7;
+    margin-bottom: 56px;
+    opacity: 0.800000011920929;
+}
+
+button {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+    min-width: 217px;
+    /* height: 56px; */
+    padding: 15px 31px;
+    border-radius: 6px;
+    background: #0E8784;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button:active {
+    background: #66D2CF;
+}
+
+button:hover {
+    background: #66D2CF;
+}
+
+/*second section*/
+
+.coffee {
+    position: absolute;
+    top: 136px;
+    z-index: -2;
+}
+
+.coffee-type {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 262px;
+    padding-right: 85px;
+    padding-left: 85px;
+    padding-bottom: 200px;
+    /* background-image: url(./images/bg-text.png);
+    background-repeat: no-repeat;
+    background-position: 136px, 85px; */
+    position: relative;
+}
+
+/* .coffee-type > img {
+    position: absolute;
+    top: 136px;
+    left: 85px;
+} */
+
+.types-of-coffee {
+    max-width: 255px;
+    
+}
+
+.types-of-coffee img {
+    width: 255px;
+    height: 193px;
+}
+
+.types-of-coffee h3 { 
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    padding-top: 71px;
+    padding-bottom: 24px;
+    /* margin-bottom: 24px; */
+}
+
+.types-of-coffee p {
+    text-align: center;
+}
+
+/*third section*/
+
+.why-we {
+    height: 577px;
+    background: #2C343E;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+h2 {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    padding-top: 100px;
+    padding-bottom: 32px;
+}
+
+.why-we > p {
+    color: #FEFCF7;
+    text-align: center;
+    max-width: 540px;
+}
+
+.qualities {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    bottom: -151px;
+}
+
+.quality {
+    width: 350px;
+    height: 382px;
+    border-radius: 8px;
+    background: #0E8784;
+    padding: 72px 48px 48px 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quality h3 {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    padding-top: 56px;
+    padding-bottom: 24px;
+}
+
+.quality-special-img {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.quality p {
+    color: #FEFCF7;
+    text-align: center;
+}
+
+/*fourth section*/
+
+.how-work {
+    padding: 351px 150px 200px 85px;
+}
+
+h4 {
+    color: #83888F;
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    margin-bottom: 95px;
+}
+
+.decoration {
+    max-width: 760px;
+    height: 2px;
+    background: #FDD6BA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 82px;
+}
+
+.decoration::before {
+    content: url(../images/Oval-decor.png);
+}
+
+.decoration::after {
+    content: url(../images/Oval-decor.png);
+}
+
+/* .decoration > div {
+    width: 31px;
+    height: 31px;
+    background: #FEFCF7;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+} */
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.step {
+    max-width: 285px;
+}
+
+.step-number {
+    color: #FDD6BA;
+    font-family: 'Fraunces', serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    margin-bottom: 38px;
+}
+
+.step h5 {
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    margin-bottom: 42px;
+}
+
+/*footer*/
+
+.footer {
+    background: #2C343E;
+    padding: 47px 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+article li {
+    color: #83888F;
+}
+
+article li:active {
+    color: #FEFCF7;
+}
+
+article li:hover {
+    color: #FEFCF7;
+}
+
+.footer-link {
+    display: flex;
+    align-items: center;
+    gap: 103px;
+}
+
+.footer-link img {
+    width: 236px;
+    height: 26px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.social-media svg path:active {
+    fill: #FDD6BA;
+}
+.social-media svg path:hover {
+    fill: #FDD6BA;
+}
